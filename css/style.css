@@ -1,0 +1,167 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title{
+    color: white;
+    padding-left: 160px;
+}
+
+.nav-links{
+    background-color: rgb(47, 45, 45);
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    gap: 40px;
+    padding-right: 20px;
+}
+
+a{
+    color: white;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn{
+    background-color: rgb(39, 146, 232);
+    color: white;
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    margin-left: 190px;
+}
+
+li{
+    list-style: none;
+}
+
+.tarjeta{
+    width: 500px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.encabezado{
+    background-color: #09bebe;
+    height: 100px;
+    position: relative;
+}
+
+.usuario{
+    position: absolute;
+    width: 85px;
+    top: 55px;
+    left: 20px;
+    border-radius: 50%;
+    padding: 2px;
+    border-color: #e8e8e8;
+    border-style: solid;
+}
+
+.cuerpo{
+    padding: 30px;
+    border: 2px solid #e8e8e8;
+}
+
+.iconos{
+    width: 13px;
+    margin-right: 10px;
+}
+
+.ubicacion{
+    margin-bottom: 10px;
+}
+
+.card-header{
+    background-color: gray;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+
+.card-uno{
+    width: 500px;
+    height: 200px;
+    border: 2px solid gray;  
+    flex-direction: column;
+}
+
+.card-body{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.imagen{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    border: 2px solid gray;  
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.dos{
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.aaa{
+    border-radius: 50%;
+    position: relative;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 40px;
+    height: 40px;
+}
+
+.card-list{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.parteizq{
+    margin-top: 10px;
+}
+
+.carddos{
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;  
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
